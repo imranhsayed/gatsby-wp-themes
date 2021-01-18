@@ -1,0 +1,37 @@
+.tabitem {
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.tabitem--inactive {
+  opacity: 0.5;
+  filter: grayscale(100%);
+}
+
+.tabitem__icon {
+  font-size: 22px;
+}
+
+.tabitem__title {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.content {
+  margin-top: 15px;
+}
+
+.account-details-menu {
+  .logout {
+    border: none;
+    padding: 0;
+    margin: 10px 0;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.account-details-content {
+  min-height: 355px;
+}
